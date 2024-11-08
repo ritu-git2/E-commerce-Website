@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cart.css">
+</head>
+<body>
+    <section class="cart-section">
+        <button class="home-btn">
+            <a href="./index.html">&lt;&lt; Home Page</a>
+          </button>
+        <button class="home-btn">
+            <a href="./explore.html">&lt;&lt; Products</a>
+          </button>
+        <h2>Your Cart</h2>
+    
+        <div class="cart-items">
+            <!-- Cart Item 1 -->
+            <div class="cart-item">
+                <img src="product-image-1.jpg" alt="Product 1">
+                <div class="cart-item-details">
+                    <h3>Product 1</h3>
+                    <p class="price">$29.99</p>
+                </div>
+                <div class="cart-item-quantity">
+                    <button class="quantity-btn decrease">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="quantity-btn increase">+</button>
+                </div>
+                <div class="cart-item-total">
+                    <p>$29.99</p>
+                </div>
+                <button class="remove-item-btn">Remove</button>
+            </div>
+    
+            <!-- Cart Item 2 -->
+            <div class="cart-item">
+                <img src="product-image-2.jpg" alt="Product 2">
+                <div class="cart-item-details">
+                    <h3>Product 2</h3>
+                    <p class="price">$49.99</p>
+                </div>
+                <div class="cart-item-quantity">
+                    <button class="quantity-btn decrease">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="quantity-btn increase">+</button>
+                </div>
+                <div class="cart-item-total">
+                    <p>$49.99</p>
+                </div>
+                <button class="remove-item-btn">Remove</button>
+            </div>
+        </div>
+    
+        <div class="cart-summary">
+            <h3>Cart Summary</h3>
+            <p>Subtotal: <span class="subtotal">$79.98</span></p>
+            <p>Tax: <span class="tax">$6.40</span></p>
+            <p>Total: <span class="total">$86.38</span></p>
+        </div>
+    
+        <div class="cart-buttons">
+            <button class="btn-continue-shopping">Continue Shopping</button>
+            <button class="btn-checkout">Proceed to Checkout</button>
+        </div>
+    </section>
+    
+</body>
+</html>
